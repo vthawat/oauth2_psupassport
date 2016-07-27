@@ -1,4 +1,4 @@
-# Starter kit to integrate OAuth2.0 PSU Passport Service Provider With CodeIgniter 2
+# Starter kit to integrate OAuth2.0 PSU Passport Service Provider With CodeIgniter 2 or 3
 Open Source PHP Framework (originally from EllisLab)
 
 For more info, please refer to the user-guide at http://www.codeigniter.com/userguide2/  
