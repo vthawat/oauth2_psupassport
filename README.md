@@ -1,5 +1,6 @@
 # Starter kit to integrate OAuth2.0 PSU Passport Service Provider With CodeIgniter 2 or 3
-Open Source PHP Framework (originally from EllisLab)
+ * Open Source PHP Framework (originally from EllisLab)
+ * Sample code for developers
 
 For more info, please refer to the user-guide at http://www.codeigniter.com/userguide2/  
 (also available within the download package for offline use)
@@ -12,4 +13,4 @@ Please update your installation to the latest CodeIgniter 3.x version available
   * is services under (PSU)Prince of Songkla University 
   * developed by Faculty of Engineering PSU
   * this service use protocol OAuth version 2.0
-  * this service cant integrate more client 
+  * this service cant integrate client more...
