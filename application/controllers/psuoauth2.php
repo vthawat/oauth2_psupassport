@@ -41,7 +41,7 @@ class Psuoauth2 extends CI_Controller {
 				
 
 	}
-	function setConfig()
+	private function setConfig()
 	{
 		$this->config->load('psuoauth2');
 		$this->client_id=$this->config->item('client_id');
@@ -103,7 +103,7 @@ class Psuoauth2 extends CI_Controller {
 		$this->access_token($this->input->get('code'));
 	
 	}
-	function access_token($authorize_code=null)
+	private function access_token($authorize_code=null)
 	{
 		if(empty($authorize_code))
 			show_error('Invalid authorize_code', 403);
@@ -140,13 +140,13 @@ class Psuoauth2 extends CI_Controller {
 
 
 	}
-	function refresh_token($refresh_token=null)
+	private function refresh_token($refresh_token=null)
 	{
 		if(empty($authorize_code))
 			show_error('Invalid refresh_token', 403);
 	}
 
-	function set_token($access_token=null,$refresh_token=null,$expires_in=null)
+	private function set_token($access_token=null,$refresh_token=null,$expires_in=null)
 	{
 		if(empty($access_token)&&empty($refresh_token)) 
 			show_error('Invalid refresh_token and access_token', 403);
